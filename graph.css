@@ -20,9 +20,11 @@ ol, ul {
 }
 
 .graph-header {
-    margin: 5px 30px;
+    text-align: left;
+    padding: 5px 30px;
     font-family: 'DM Serif Display', serif;
     font-size: 1.5rem;
+    border-bottom: 1px #e1e4e8 solid;
 }
 
 .graph-year {
@@ -76,7 +78,6 @@ body {
 
 .graph {
     padding: 20px;
-    border-top: 1px #e1e4e8 solid;
 }
 
 .days li:nth-child(odd) {
